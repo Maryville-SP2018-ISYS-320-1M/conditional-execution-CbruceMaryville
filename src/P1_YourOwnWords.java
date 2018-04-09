@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Clayton Bruce
+	Date: 4/8/2018
 */
 
 /*  EXAMPLE
@@ -17,30 +17,39 @@ x < y
 
 /* 1. 
 -- Your conditional expression
-
+if y > 0
+return true
 
 -- Your test values for x, y, z and do you expect true or false?
-
+ test to ouput true
 */
 
 /* 2. 
 -- Your conditional expression
-
+ while(x != 0){
+  output x is not zero
+ }
 
 -- Your test values for x, y, z and do you expect true or false?
-
+true
 */
 
 /* 3.  
 -- Your conditional expression
-
+if(y*z % 2 = true)
+odd
+else ( not odd)
 
 -- Your test values for x, y, z and do you expect true or false?
-
+true
 */
 
 /* 4.  
 -- Your conditional expression
+if(y>= (z+x))
+true
+else 
+false
 
 
 -- Your test values for x, y, z and do you expect true or false?
