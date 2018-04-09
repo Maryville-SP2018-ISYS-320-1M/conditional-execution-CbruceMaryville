@@ -2,21 +2,22 @@ import java.util.Scanner;
 
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Clayton Bruce
+	Date: 4/8/2018
 */
 
 /*
  Your expected result:
  
- 1.
- 2.
- 3. 
- 4.
+ 1. T
+ 2. F
+ 3. F
+ 4. T
  
- 5.
- 6.
- 7.
+ 5. F
+ 6. T
+ 7. F   (Its true I made a slight error in my math!)
+ 
   
  */
 public class P3_ConditionalExpressions {
@@ -27,7 +28,7 @@ public class P3_ConditionalExpressions {
 		int z = 4;
 		
 		// Replace "YOUR EXPRESSION HERE" with the expression you're validating
-		System.out.println("Expression evaluates to: " + ("YOUR EXPRESSION HERE") );
+		System.out.println("Expression evaluates to: " + (x * (y + 2) > y - (y + z) * 2) );
 	}
 
 }
